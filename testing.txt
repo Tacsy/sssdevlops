@@ -1,1 +1,10 @@
+***********************************
+This is the start of testing.txt
+***********************************
+
 I added thi file from a anew clone!
+
+***********************************
+This is the end of testing.txt
+***********************************
+
