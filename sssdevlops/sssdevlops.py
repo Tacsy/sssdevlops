@@ -4,6 +4,7 @@ Main python file for the sssdevlops example
 
 #import statements go here
 
+
 def mean(num_lst):
     """
     calculations the mean of a list of numbers
@@ -26,7 +27,6 @@ def mean(num_lst):
     num = 0.0
     for i in num_lst:
         num += i
-    num = num/len(num_lst)
+    num = num / len(num_lst)
 
     return num
-
