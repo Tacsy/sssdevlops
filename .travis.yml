@@ -6,7 +6,7 @@ sudo: false
 # python versions to be tested
 matrix:
   include:
-    - python: 2.7
+#    - python: 2.7
     - python: 3.5
     - python: 3.6
 
@@ -28,7 +28,7 @@ before_install:
 
 
 # Install the library with test requirements
-  - pip install -e .[tests]
+  - pip install -e .[tests,develop]
 
 script:
 #  - pytest -v --cov=./
