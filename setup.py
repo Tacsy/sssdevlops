@@ -24,8 +24,14 @@ if __name__ == "__main__":
             ],
             'tests': [
                 'pytest',
+                'pytest-cov'
             ],
+            'develop': [
+                'yapf',
+                'versioneer'
+                ]
         },
+
         tests_require=[
             'pytest',
         ],
