@@ -17,7 +17,7 @@ def split(num_lst, index):
     Examples
     --------
     >>> split(['a','b','c','d'],3)
-    (['a','b','c'],['d'])
+    (['a', 'b', 'c'], ['d'])
     '''
 
     list1 = num_lst[:index]
