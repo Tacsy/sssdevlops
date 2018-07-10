@@ -24,7 +24,8 @@ if __name__ == "__main__":
             ],
             'tests': [
                 'pytest',
-                'pytest-cov'
+                'pytest-cov',
+                'codecov'
             ],
             'develop': [
                 'yapf',
