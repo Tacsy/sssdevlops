@@ -24,9 +24,5 @@ def mean(num_lst):
     >>> mean([1,2,3,4,5])
     3.0
     """
-    num = 0.0
-    for i in num_lst:
-        num += i
-    num = num / len(num_lst)
 
-    return num
+    return sum(num_lst) / len(num_lst)
